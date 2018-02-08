@@ -7,11 +7,15 @@
   background: -ms-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ie10+ */
   background: linear-gradient(37deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230',GradientType=0 ); /* ie6-9 */
-  height: 100vh;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-instagram {
-  margin: 4.2em 1em 1em 1em;
+  /* margin: 4.2em 1em 1em 1em; */
+  width: 80vw;
 }
 
 .reg-google {
@@ -59,4 +63,34 @@
   height: 150px;
   width: 140px;
   border: 1px dashed pink;
+}
+
+/* Media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .img-fluid {
+    width: 60vw;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .img-fluid {
+    width: 60vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .img-fluid {
+    width: 40vw;
+  }
+
+  .google-register, .register {
+    font-weight: 600;
+    width: 15em;
+    height: 4em;
+  }
 }
