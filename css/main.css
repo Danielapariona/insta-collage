@@ -1,14 +1,50 @@
 /* Página principal de registro */
 .home {
   background: -moz-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,162,48,1)), color-stop(100%, rgba(24,128,53,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ie10+ */
-background: linear-gradient(37deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230',GradientType=0 ); /* ie6-9 */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,162,48,1)), color-stop(100%, rgba(24,128,53,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ie10+ */
+  background: linear-gradient(37deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230',GradientType=0 ); /* ie6-9 */
+  height: 100vh;
 }
 
+.logo-instagram {
+  margin: 4.2em 1em 1em 1em;
+}
+
+.reg-google {
+  color: #fff;
+  font-size: 1.1rem; 
+  margin: 1em 0;
+}
+
+.google-register, .register {
+  font-weight: 600;
+}
+
+.register {
+  margin: 3em 0;
+}
+
+.img-profile img {
+  width: 50vw;
+  border-radius: 10%;
+}
+
+.img-profile p, #password {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.register-botton-active {
+  background-color: #136096;
+  color: #fff;
+}
+
+/* Vista Collage */
 .image-small {
   width: 150px;
   height: 140px;

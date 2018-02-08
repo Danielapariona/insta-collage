@@ -8,8 +8,8 @@ $('document').ready(function() {
   var $signupBox = $('#signup-box');
   var $signupBoxSend = $('#signup-box button'); // botón de enviar
   var $userGooglePic; 
-  var $profilePhoto = $('.img-circle img');
-  var $profileName = $('.img-circle + p');
+  var $profilePhoto = $('.img-profile img');
+  var $profileName = $('.img-profile + p');
 
   // Ocultando input de password y la etiuqeta p de bienvenida
   $password.hide();
@@ -44,7 +44,7 @@ $('document').ready(function() {
       saveAccount(result.user);
       $signupGoogle.hide();
       // añadiendo mi imagen de google
-      $photoChrome.append('<div class="img-circle col-xs-6 col-xs-offset-3"><img src=" ' + result.user.photoURL + ' " /></div>', '<p class="col-xs-12"> '+ result.user.displayName + '<p/>');
+      $photoChrome.append(`<div class="img-profile col"><img src=" ${result.user.photoURL} " /><p class="col-12"> ${result.user.displayName} <p/></div>`);
       $password.show();
       // añadiendo a localstorage
       // Guardo foto y nombre  en localStorage
@@ -80,11 +80,11 @@ $('document').ready(function() {
   function passwordLength() {
     // console.log($(this).val().length);
     if ($(this).val().length >= 6 && $(this).val().length <= 10 && $(this).val() !== '123456') {
-      $signupBoxSend.prop('disabled', false);
+      $signupBoxSend.prop('disabled', false).addClass('register-botton-active');
       localStorage.password = $(this).val();
       userInfo.pass = localStorage.password;
     } else {
-      $signupBoxSend.prop('disabled', true);
+      $signupBoxSend.prop('disabled', true).removeClass('register-botton-active');
     };
   }
 

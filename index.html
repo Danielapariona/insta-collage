@@ -11,26 +11,33 @@
   <title>Social Network</title>
 </head>
 <body class="home">
-  <main>
+  <main class="text-center">
     <div class="container">
       <div class="row">
-        <div class="col">
-          <img src="assets/images/Instagram_logo_black.png" class="img-fluid" alt="Responsive image">
+        <div class="col col-md-10.offset-md-1">
+          <figure class="logo-instagram">
+            <img src="assets/images/Instagram_logo_black.png" class="img-fluid" alt="Responsive image">
+          </figure>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 reg-google">
-          <p>Regístrate en sólo un paso con Google!</p>
+        <div class="col-12 reg-google">
+          <p>Regístrate en sólo un paso con tu correo Gmail!</p>
         </div>
-        <button class="btn btn-default col-xs-8 col-xs-offset-2" type="submit" id="signup-google">Inicia con google</button>
       </div>
+      <div class="row">
+          <div class="col-12">
+            <button class="btn btn-info col-6 google-register" type="submit" id="signup-google">Inicia con 
+                <i class="fab fa-google-plus-g"></i>
+            </button>
+          </div>
+        </div>
     </div>
-  </main>
   <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <div id="photo-chrome"></div>
           <div id="password">
             <p>Ingresa tu contraseña entre 6 y 10 dígitos:</p>
@@ -39,20 +46,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <div id="signup-box">
             <p>¡Bienvenida a la red Social!</p>
-            <button class="btn btn-default col-xs-6 col-xs-offset-3 registrate" type="submit" id="signup">Regístrate</button>
+            <button class="btn btn-default col-6 register" type="submit" id="signup">Regístrate</button>
           </div>
         </div>
       </div>
     </div>  
+  </main>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
   crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
 <script src="js/signup.js"></script>   
 </body>
