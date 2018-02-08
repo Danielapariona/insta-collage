@@ -1,12 +1,20 @@
 /* Página principal de registro */
+
 .home {
-  background: -moz-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,162,48,1)), color-stop(100%, rgba(24,128,53,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ie10+ */
-  background: linear-gradient(37deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230',GradientType=0 ); /* ie6-9 */
+  background: -moz-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255, 162, 48, 1)), color-stop(100%, rgba(24, 128, 53, 1)));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
+  /* ie10+ */
+  background: linear-gradient(37deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230', GradientType=0);
+  /* ie6-9 */
   height: 100vh;
 }
 
@@ -16,11 +24,12 @@
 
 .reg-google {
   color: #fff;
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
   margin: 1em 0;
 }
 
-.google-register, .register {
+.google-register,
+.register {
   font-weight: 600;
 }
 
@@ -33,7 +42,8 @@
   border-radius: 10%;
 }
 
-.img-profile p, #password {
+.img-profile p,
+#password {
   color: #fff;
   font-weight: 600;
   margin-top: 1rem;
@@ -45,6 +55,7 @@
 }
 
 /* Vista Collage */
+
 .image-small {
   width: 150px;
   height: 140px;
@@ -56,7 +67,60 @@
 }
 
 .box {
-  height: 150px;
-  width: 140px;
+  height: 298px;
+  width: 202px;
   border: 1px dashed pink;
+}
+
+
+.size {
+  width: 100%;
+  height: 100%;
+}
+
+
+.stretch {
+  float: left;
+  height: auto;
+}
+
+.stretch--3 {
+  width: 32%;
+  height: 220px;
+}
+
+.stretch--2 {
+  width: 48%;  
+  height: 304px;
+}
+
+.stretch--1of3 {
+  width: 32%;
+}
+
+.stretch--2of3 {
+  width: 65%;
+}
+
+@media screen and (max-width: 600px) {
+  .stretch--2 {
+    width: 100%;
+  }
+  .stretch--3 {
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+/* .containera {
+  max-width: 1200px;
+  height: auto;
+  margin: 40px auto;
+} */
+
+.overflow {
+  overflow: auto;
 }
