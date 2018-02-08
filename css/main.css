@@ -1,7 +1,6 @@
 /* Página principal de registro */
 
 .home {
-<<<<<<< HEAD
   background: -moz-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ff3.6+ */
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,162,48,1)), color-stop(100%, rgba(24,128,53,1))); /* safari4+,chrome */
   background: -webkit-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* safari5.1+,chrome10+ */
@@ -13,23 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-=======
-  background: -moz-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
-  /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255, 162, 48, 1)), color-stop(100%, rgba(24, 128, 53, 1)));
-  /* safari4+,chrome */
-  background: -webkit-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
-  /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
-  /* opera 11.10+ */
-  background: -ms-linear-gradient(53deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
-  /* ie10+ */
-  background: linear-gradient(37deg, rgba(255, 162, 48, 1) 0%, rgba(24, 128, 53, 1) 100%);
-  /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230', GradientType=0);
-  /* ie6-9 */
-  height: 100vh;
->>>>>>> b3fe2a1a2549f3dd1c33cd1d3579df621edeaa33
 }
 
 .logo-instagram {
@@ -87,7 +69,7 @@
   border: 1px dashed pink;
 }
 
-<<<<<<< HEAD
+
 /* Media queries */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -116,7 +98,6 @@
     width: 15em;
     height: 4em;
   }
-=======
 
 .size {
   width: 100%;
@@ -168,5 +149,4 @@ body {
 
 .overflow {
   overflow: auto;
->>>>>>> b3fe2a1a2549f3dd1c33cd1d3579df621edeaa33
 }

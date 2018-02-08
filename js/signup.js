@@ -90,7 +90,7 @@ $('document').ready(function() {
 
   // Evento para cambiar al perfil
   $signupBoxSend.on('click', function() {
-    window.location.href = '../views/collage.html';
+    window.location.href = 'insta-collage/views/collage.html';
   });
   console.log(userInfo); // Objeto con el correo, foto, nombre 
 
