@@ -1,3 +1,14 @@
+/* Página principal de registro */
+.home {
+  background: -moz-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,162,48,1)), color-stop(100%, rgba(24,128,53,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(53deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* ie10+ */
+background: linear-gradient(37deg, rgba(255,162,48,1) 0%, rgba(24,128,53,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#188035', endColorstr='#FFA230',GradientType=0 ); /* ie6-9 */
+}
+
 .image-small {
   width: 150px;
   height: 140px;
