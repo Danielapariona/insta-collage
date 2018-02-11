@@ -76,12 +76,6 @@
   border: 1px dashed pink;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ceacb23257c4b40f14cdedd93579a7856fa35cd3
-/* Media queries */
-
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
@@ -90,32 +84,64 @@
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-
-@media (min-width: 768px) {
-  .img-fluid {
-    width: 60vw;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-
-@media (min-width: 992px) {
-  .img-fluid {
-    width: 40vw;
-  }
-  .google-register,
-  .register {
-    font-weight: 600;
-    width: 15em;
-    height: 4em;
-  }
-<<<<<<< HEAD
-
 .size {
   width: 100%;
   height: 100%;
 }
+
+
+.stretch {
+    float: left;
+    height: auto;
+    padding-bottom: 10px;
+    padding-left: 1%;
+}
+
+.stretch--3 {
+    width: 32%;
+}
+
+.stretch--2 {
+    width: 48.5%; 
+}
+
+.stretch--1of3 {
+  width: 32%;
+}
+
+.stretch--2of3 {
+  width: 65%;
+}
+
+@media screen and (max-width: 600px) {
+  .stretch--2 { width: 100%; }
+  .stretch--3 { width: 100%; }
+}
+
+body {
+  margin: 0;
+}
+
+/* .container {
+  max-width: 1200px;
+  height: auto;
+  margin: 40px auto;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------
 
 
 .stretch {
@@ -141,51 +167,6 @@
   width: 65%;
 }
 
-@media screen and (max-width: 600px) {
-  .stretch--2 {
-=======
-  .size {
->>>>>>> ceacb23257c4b40f14cdedd93579a7856fa35cd3
-    width: 100%;
-    height: 100%;
-  }
-  .stretch {
-    float: left;
-    height: auto;
-  }
-  .stretch--3 {
-    width: 32%;
-    height: 220px;
-  }
-  .stretch--2 {
-    width: 48%;
-    height: 304px;
-  }
-  .stretch--1of3 {
-    width: 32%;
-  }
-  .stretch--2of3 {
-    width: 65%;
-  }
-  @media screen and (max-width: 600px) {
-    .stretch--2 {
-      width: 100%;
-    }
-    .stretch--3 {
-      width: 100%;
-    }
-  }
-  
-  body {
-    margin: 0;
-  }
-
-<<<<<<< HEAD
 .overflow {
   overflow: auto;
-=======
-  .overflow {
-    overflow: auto;
-  }
->>>>>>> ceacb23257c4b40f14cdedd93579a7856fa35cd3
 }
